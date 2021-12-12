@@ -3,13 +3,13 @@
 
 
 	<!-- ========== FUNGAL FOOD ========== -->
-	
-					<!-- SHIMMERSHROOM -->
-		<!-- A rare food that tastes better raw than cooked -->
-<ThingDef ParentName="PlantFoodRawBase">
+
+	<!-- SHIMMERSHROOM -->
+	<!-- A rare food that tastes better raw than cooked -->
+	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>BMT_RawShimmershroom</defName>
-		<label>fresh shimmershroom</label>
-		<description>Raw shimmershroom. Its delicate taste and nutritional qualities are much appreciated by caveworlds inhabitants.</description>
+		<label>мякоть хладошляпа</label>
+		<description>Мякоть нежного биолюминисцентного гриба со шляпкой голубоватого цвета. Его приятный вкус и питательные свойства высоко ценятся обитателями пещерных миров.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/PlantFoodRaw/BMT_RawShimmershroom</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -32,13 +32,13 @@
 			</li>
 		</comps>
 	</ThingDef>
-  
-					<!-- GLOWBULB -->
-		<!-- Low nutritional value but takes a long time to spoil -->
+
+	<!-- GLOWBULB -->
+	<!-- Low nutritional value but takes a long time to spoil -->
 	<ThingDef ParentName="PlantFoodRawBase">
-    <defName>BMT_RawGlowbulb</defName>
-		<label>raw glowbulb</label>
-		<description>Raw glowbulb. While its tough rubbery flesh makes it heavy and unappealing to eat raw, it also makes it slow to rot.</description>
+		<defName>BMT_RawGlowbulb</defName>
+		<label>мякоть бирюзовичка</label>
+		<description>Мякоть плотного биолюминисцентного гриба с бирюзовой шляпкой. Хоть она грубая и волокнистая -  этот гриб обладает низкой питательной ценностью. При всех своих недостатках есть и положительные моменты, она черезвычайно долго портится.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/PlantFoodRaw/BMT_RawGlowbulb</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -52,10 +52,10 @@
 			<specialThoughtDirect>AteRawFood</specialThoughtDirect>
 		</ingestible>
 		<ingredient>
-		  <mergeCompatibilityTags>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
-		  </mergeCompatibilityTags>
-		</ingredient>		
+			<mergeCompatibilityTags>
+				<li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+			</mergeCompatibilityTags>
+		</ingredient>
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>40</daysToRotStart>
@@ -63,12 +63,12 @@
 		</comps>
 	</ThingDef>
 
-					<!-- GREYFIELDS -->
-		<!-- Mushroom that can be made into wine -->
-    <ThingDef ParentName="PlantFoodRawBase">
+	<!-- GREYFIELDS -->
+	<!-- Mushroom that can be made into wine -->
+	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>BMT_RawGreyfields</defName>
-		<label>raw greyfields</label>
-		<description>Raw greyfield mushrooms, ready to be cooked into food or processed into mushroom wine.</description>
+		<label>шляпки буровичка</label>
+		<description>Шляпки пряного пещерного гриба, подготовленные для дальнейшей переработки. Этот сорт грибов прославился следующей уникальной особенностью: В сусле – давленой массе шляпок буровика – развиваются дрожжевые грибки, вызывающие брожение аналогичное процессу брожения в винном сусле. Вы правильно догадались, из этих грибов можно получить весьма недурное вино.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/PlantFoodRaw/BMT_RawGreyfields</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -82,10 +82,10 @@
 			<specialThoughtDirect>AteRawFood</specialThoughtDirect>
 		</ingestible>
 		<ingredient>
-		  <mergeCompatibilityTags>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
-		  </mergeCompatibilityTags>
-		</ingredient>		
+			<mergeCompatibilityTags>
+				<li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+			</mergeCompatibilityTags>
+		</ingredient>
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>10</daysToRotStart>
@@ -95,12 +95,12 @@
 
 	<!-- ========== OTHER FUNGAL PRODUCTS ========== -->
 
-					<!-- GLEAMCAP SALVE -->
-		<!-- Can be used as medicine -->
+	<!-- GLEAMCAP SALVE -->
+	<!-- Can be used as medicine -->
 	<ThingDef ParentName="ResourceBase">
 		<defName>BMT_GleamcapSalve</defName>
-		<label>gleamcap salve</label>
-		<description>A massive gleamcap, dripping with salve. Known for its natural healing properties by caveworld tenders, it can be used to treat injuries and ease the pain.</description>
+		<label>слякоть соплевичка</label>
+		<description>Массивная блестящая шляпка этого гриба сильно пропитана некой субстанцией, обладающей антисептическим и слегка седативным эффектом. Субстанция известна своими природными целебными свойствами среди обитателей пещерного мира, она может использоваться для лечения травм и облегчения боли.</description>
 		<thingClass>Medicine</thingClass>
 		<graphicData>
 			<texPath>Things/Item/Resource/BMT_GleamcapSalve</texPath>
@@ -127,28 +127,28 @@
 		</comps>
 	</ThingDef>
 
-					<!-- MYCELIAL BLOCKS -->
-		<!-- A long life animal food -->
-  <ThingDef ParentName="RoughPlantBase">
-    <defName>BMT_MycelialBlocks</defName>
-    <label>mycelial blocks</label>
-    <description>Blocks of compacted mycelium, the fibrous root-like part of fungi. Decent animal feed that won't decay, but inedible for humans.</description>
-	<stackLimit>50</stackLimit>
-    <graphicData>
-      <texPath>Things/Item/Resource/BMT_MycelialBlocks</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
-    </graphicData>
-    <statBases>
-      <MarketValue>0.6</MarketValue>
-      <Mass>0.014</Mass>
-      <Flammability>1.5</Flammability>
-    </statBases>
-    <thingCategories>
-      <li>Foods</li>
-    </thingCategories>
-    <ingestible>
-      <optimalityOffsetFeedingAnimals>7</optimalityOffsetFeedingAnimals>
-    </ingestible>
-  </ThingDef>
+	<!-- MYCELIAL BLOCKS -->
+	<!-- A long life animal food -->
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>BMT_MycelialBlocks</defName>
+		<label>mycelial blocks</label>
+		<description>Blocks of compacted mycelium, the fibrous root-like part of fungi. Decent animal feed that won't decay, but inedible for humans.</description>
+		<stackLimit>50</stackLimit>
+		<graphicData>
+			<texPath>Things/Item/Resource/BMT_MycelialBlocks</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.6</MarketValue>
+			<Mass>0.014</Mass>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>Foods</li>
+		</thingCategories>
+		<ingestible>
+			<optimalityOffsetFeedingAnimals>7</optimalityOffsetFeedingAnimals>
+		</ingestible>
+	</ThingDef>
 
 </Defs>

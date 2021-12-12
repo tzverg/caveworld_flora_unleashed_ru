@@ -6,8 +6,8 @@
 <!-- Mushroom wine is expensive, but only caveworlders fully enjoy it -->
     <ThingDef ParentName="DrugBase">
         <defName>BMT_MushroomWine</defName>
-        <label>mushroom wine</label>
-        <description>Fungi fermented into an alcoholic beverage not entirely unlike wine. It's an aquired taste, tangy with a hint of agar.</description>
+        <label>Грибное Вино</label>
+        <description>Грибы перебродившие в алкогольный напиток совсем не похожий на вино. Непривычный вкус, терпкий, с оттенком агара. Грибное вино дорого, лиш жители пещерного мира наслаждаются им в полной мере</description>
         <graphicData>
             <texPath>Things/Item/Drug/BMT_MushroomWine</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -71,7 +71,7 @@
         </comps>
         <tools>
             <li>
-                <label>bottle</label>
+                <label>бутылка</label>
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
@@ -79,7 +79,7 @@
                 <cooldownTime>2</cooldownTime>
             </li>
             <li>
-                <label>neck</label>
+                <label>горлышко</label>
                 <capacities>
                     <li>Poke</li>
                 </capacities>
@@ -92,8 +92,8 @@
 	<!-- ========== The Production Process ========== -->
     <RecipeDef>
         <defName>BMT_MakeMushroomMust</defName>
-        <label>make mushroom must</label>
-        <description>Make must from mushrooms.</description>
+        <label>Приготовить грибное сусло</label>
+        <description>Процесс приготовления сусла из определённого сорта грибов. Это компонент будущего спиртного напитка.</description>
         <jobString>Making mushroom must.</jobString>
         <workSpeedStat>DrugCookingSpeed</workSpeedStat>
         <workSkill>Cooking</workSkill>
@@ -127,8 +127,8 @@
 
     <ThingDef ParentName="ResourceBase">
         <defName>BMT_MushroomMust</defName>
-        <label>mushroom must</label>
-        <description>Un-fermented mushroom wine. This substance needs to ferment in a mushroom fermenting barrel before it becomes drinkable.</description>
+        <label>Грибное Сусло</label>
+        <description>Неперебродившее грибное вино. Эта субстанция должна перебродить в бочке для корректного завершения процесса ферментации грибов, прежде чем она станет пригодной для питья.</description>
         <graphicData>
             <texPath>Things/Item/Resource/BMT_MushroomMust</texPath>
             <graphicClass>Graphic_Single</graphicClass>

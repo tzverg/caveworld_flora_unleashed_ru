@@ -6,7 +6,7 @@
     <JobDef>
         <defName>BMT_FillMushroomFermentingBarrelJob</defName>
         <driverClass>JobDriver_FillMushroomFermentingBarrel</driverClass>
-        <reportString>filling TargetA.</reportString>
+        <reportString>наполняет грибами TargetA.</reportString>
         <suspendable>false</suspendable>
         <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
     </JobDef>
@@ -14,7 +14,7 @@
     <JobDef>
         <defName>BMT_TakeMushroomWineOutOfFermentingBarrelJob</defName>
         <driverClass>JobDriver_TakeMushroomWineOutOfFermentingBarrel</driverClass>
-        <reportString>taking mushroom wine out of TargetA.</reportString>
+        <reportString>сливает грибное вино с TargetA.</reportString>
         <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
     </JobDef>
 

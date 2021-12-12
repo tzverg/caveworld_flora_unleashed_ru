@@ -5,21 +5,21 @@
 	<!--=============== High on Spores ==============-->
 	<HediffDef ParentName="DiseaseBase">
 		<defName>BMT_HediffGleamcapSmoke</defName>
-		<label>gleamcap smoke</label>
-		<description>gleamcap smoke</description>
+		<label>споровое облачко</label>
+		<description>Мицелярное облачко содержащее психо-споры соплевичка</description>
 		<comps>
-		  <li Class="HediffCompProperties_SeverityPerDay">
-			<severityPerDay>-1</severityPerDay>
-			<showHoursToRecover>true</showHoursToRecover>
-		  </li>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
 		</comps>
 		<stages>
 			<li>
 				<label>minor</label>
 				<minSeverity>0.2</minSeverity>
 				<painFactor>0.9</painFactor>
-			 </li>
-			  <li>
+			</li>
+			<li>
 				<label>moderate</label>
 				<minSeverity>0.40</minSeverity>
 				<capMods>
@@ -28,10 +28,10 @@
 						<setMax>0.9</setMax>
 					</li>
 				</capMods>
-				<painFactor>0.9</painFactor>				
-			  </li>		
+				<painFactor>0.9</painFactor>
+			</li>
 		</stages>
 	</HediffDef>
-	
-	
+
+
 </Defs>

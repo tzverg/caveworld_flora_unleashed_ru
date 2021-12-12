@@ -3,8 +3,8 @@
 
   <TerrainDef ParentName="FloorBase">
     <defName>BMT_FungalGardenGravel</defName>
-    <label>fungal garden gravel</label>
-    <description>A visually attractive substrate for growing fungal crops underground. The live mycelium feeds on detritus and readily absorbs animal filth.</description>
+    <label>грибной садовый субстрат</label>
+    <description>Визуально привлекательный субстрат для выращивания грибных культур под землей. Живой мицелий питается детритом и легко поглощает животные загрязнения.</description>
     <texturePath>Terrain/Surfaces/BMT_FungalGardenGravel</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>320</renderPrecedence>

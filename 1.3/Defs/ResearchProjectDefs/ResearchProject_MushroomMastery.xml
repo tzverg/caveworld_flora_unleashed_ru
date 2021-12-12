@@ -5,8 +5,8 @@
 	<!--=============== Cultivating Fungi ==============-->
 	<ResearchProjectDef>
 		<defName>BMT_ResearchMushrooms</defName>
-		<label>mushroom mastery</label>
-		<description>Research how to grow delicate cave fungi, and how to use their products.</description>
+		<label>Мастерство Грибоводчества</label>
+		<description>Изучите, как выращивать редкие пещерные грибы и как использовать их продукты.</description>
 		<techLevel>Neolithic</techLevel>
 		<baseCost>1200</baseCost>
 		<researchViewX>3.00</researchViewX>

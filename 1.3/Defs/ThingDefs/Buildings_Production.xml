@@ -6,8 +6,8 @@
 <!-- Much like any other fermenting barrel but mustier and more inclined to give off spores -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>BMT_MushroomFermentingBarrel</defName>
-		<label>mushroom fermenting barrel</label>
-		<description>A barrel for fermenting mushroom must into mushroom wine.</description>
+		<label>Ферментёр</label>
+		<description>Ёмкость предназначенная для проведения процесса ферментации грибного сусла.</description>
 		<thingClass>Building_MushroomFermentingBarrel</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Production/BMT_MushroomFermentingBarrel/BMT_MushroomFermentingBarrel</texPath>
@@ -57,12 +57,12 @@
 	</ThingDef>
 	
 	<!-- ========== FUNGIPONICS ==============-->
-<!-- Growing fungi doesn't use power or need much active tending but they do need specific conditions -->
+	<!-- Growing fungi doesn't use power or need much active tending but they do need specific conditions -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>BMT_FungiponicsBasin</defName>
 		<label>fungiponics basin</label>
 		<description>Not a basin at all, but a series of rotting logs fixed in place with holes for mycelium starters. Growing mushrooms doesn't require light or power hungry watering systems.</description>
-			<thingClass>Caveworld_Flora_Unleashed.Building_FungiponicsBasin</thingClass>
+		<thingClass>Caveworld_Flora_Unleashed.Building_FungiponicsBasin</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Linked/BMT_Fungiponics_Atlas</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -90,8 +90,8 @@
 		<canOverlapZones>false</canOverlapZones>
 		<size>(1,1)</size>
 		<statBases>
-			<WorkToBuild>350</WorkToBuild> <!-- 50% of 2800/4 -->
-			<MaxHitPoints>25</MaxHitPoints> <!-- ~50% of 180/4 -->
+			<WorkToBuild>350</WorkToBuild>			<!-- 50% of 2800/4 -->
+			<MaxHitPoints>25</MaxHitPoints>			<!-- ~50% of 180/4 -->
 			<Flammability>0.2</Flammability>
 			<Cleanliness>-10</Cleanliness>
 		</statBases>
@@ -118,5 +118,4 @@
 		<designationCategory>Production</designationCategory>
 	</ThingDef>
 
-	
 </Defs>

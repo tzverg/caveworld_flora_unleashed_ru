@@ -6,24 +6,24 @@
     <stackLimit>1</stackLimit>
     <stages>
       <li>
-        <label>ate raw shimmershroom</label>
-        <description>I ate a delicious shimmershroom. It was luxuriantly sweet and velvety!</description>
+        <label>Съел хладошляп</label>
+        <description>Наконец-то мне довелось попробовать на вкус восхитительный и редкий гриб "хладошляп". Он был немного терпким, но восхитительно вкусным и освежающим с приятной пористой фактурой!</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
-  
+
     <ThoughtDef>
     <defName>BMT_UndergrounderMushroomed</defName>
-    <durationDays>1</durationDays>
+    <durationDays>2</durationDays>
     <stackLimit>1</stackLimit>
     <requiredTraits>
       <li>Undergrounder</li>
     </requiredTraits>
     <stages>
       <li>
-        <label>drank mushroom wine</label>
-        <description>This is real wine, why do surfacers bother with grapes? Nasty little bubbles of goo grapes.</description>
+        <label>Отпил грибного вина</label>
+        <description>Вот оно, настоящее вино. Зачем наскальники заморачиваются с виноградом? Мерзкие маленькие пузырьки винограда не могут дать столь пряного привкуса.</description>
         <baseMoodEffect>4</baseMoodEffect>
       </li>
     </stages>
@@ -34,9 +34,9 @@
     <hediff>BMT_HediffGleamcapSmoke</hediff>
     <stages>
       <li>
-        <label>breathed gleamcap smoke</label>
-        <description>I breathed a strange smoke from that gleamcap. I am feeling so gooood!</description>
-        <baseMoodEffect>8</baseMoodEffect>
+        <label>Вдохнул мицелярное облачко</label>
+        <description>Йаа вдохнул страАанное облачко что ис...пустил этт соплевичОк. Чусствую себя туччкой!</description>
+        <baseMoodEffect>12</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

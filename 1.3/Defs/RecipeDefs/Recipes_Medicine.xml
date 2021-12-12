@@ -4,8 +4,8 @@
   <RecipeDef>
     <defName>BMT_RefineGleamcapSalve</defName>
     <label>make medicine from gleamcap salve</label>
-    <description>Use advanced biochemical extraction to separate out the useful chemicals in gleamcap salve and package them in a form more useful as medicine.</description>
-    <jobString>Refining gleamcap salve into industrial medicine.</jobString>
+    <description>Используйте передовую биохимическую экстракцию для выделения полезных химических веществ из мази соплевичка и упаковки их в капсулы, более удобные для использования в качестве лекарства.</description>
+    <jobString>Переработка мази соплевичка в промышленное лекарство.</jobString>
       <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
       <workSkill>Intellectual</workSkill>
       <recipeUsers>

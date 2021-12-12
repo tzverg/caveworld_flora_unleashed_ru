@@ -2,8 +2,8 @@
 <Defs>
   <ThingDef>
     <defName>BMT_Mycelium</defName>
-    <label>mycelium</label>
-    <description>An extensive mesh of fungal hyphae. Unlike roots which are only one part of a plant, the mycelium is the main body of the fungus, the mushrooms people are familiar with are just the reproductive structures. This network is usually hidden underground but in caves with little soil it has adapted to creep over the surface of the rock.</description>
+    <label>Мицелий</label>
+    <description>Разветвленная сеть грибного гифа. В отличие от корней, которые являются лишь одной из частей растения, мицелий - это основное тело гриба, а знакомые нам грибы - лишь репродуктивные структуры. Эта сеть обычно скрыта под землей, но в пещерах с небольшим количеством почвы она приспособилась перемещаться по затенённым поверхностям скалы.</description>
     <thingClass>Caveworld_Flora_Unleashed.Mycelium</thingClass>
     <category>Plant</category>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
@@ -20,17 +20,17 @@
     <graphicData>
       <texPath>Things/Plant/BMT_Mycelium</texPath>
       <graphicClass>Graphic_Random</graphicClass>
-	  <shaderType>CutoutPlant</shaderType>
-	  <drawOffset>(0,-2,-2)</drawOffset>
-	  <drawSize>(2,2)</drawSize> 
+      <shaderType>CutoutPlant</shaderType>
+      <drawOffset>(0,-2,-2)</drawOffset>
+      <drawSize>(2,2)</drawSize>
     </graphicData>
     <hideAtSnowDepth>0.2</hideAtSnowDepth>
     <plant>
       <soundHarvesting>Harvest_Standard</soundHarvesting>
       <soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
-	  <harvestedThingDef>BMT_MycelialBlocks</harvestedThingDef>
-   	  <harvestTag>Standard</harvestTag>
-	  <harvestYield>5</harvestYield>	  
+      <harvestedThingDef>BMT_MycelialBlocks</harvestedThingDef>
+      <harvestTag>Standard</harvestTag>
+      <harvestYield>5</harvestYield>
       <sowWork>3000</sowWork>
       <harvestWork>30</harvestWork>
       <topWindExposure>0.0</topWindExposure>
@@ -38,6 +38,6 @@
     </plant>
     <thingCategories>
       <li>Plants</li>
-    </thingCategories>	
+    </thingCategories>
   </ThingDef>
 </Defs>

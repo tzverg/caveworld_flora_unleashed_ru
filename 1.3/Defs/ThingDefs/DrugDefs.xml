@@ -3,8 +3,8 @@
 
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>BMT_Gleamcapsules</defName>
-    <label>gleamcapsules</label>
-    <description>Potent pain relief with none of the side effects of the raw spores.</description>
+    <label>соплепилюли</label>
+    <description>Обезболивание пациента без побочных эффектов использования сырых спор.</description>
     <descriptionHyperlinks>
       <HediffDef>GleamcapsuleHigh</HediffDef>
     </descriptionHyperlinks>
@@ -50,9 +50,9 @@
   <HediffDef>
     <defName>GleamcapsuleHigh</defName>
     <hediffClass>Hediff_High</hediffClass>
-    <label>high on gleamcapsules</label>
-    <labelNoun>a gleamcapsule high</labelNoun>
-    <description>Gleamcapsules' effect. Efective pain relief without the side effects of the raw mushroom.</description>
+    <label>крутые соплепилюли</label>
+    <labelNoun>крутая соплепилюля</labelNoun>
+    <description>Сильное обезболивание пациента без побочных эффектов использования сырых спор.</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>

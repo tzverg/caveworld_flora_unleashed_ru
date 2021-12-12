@@ -3,14 +3,14 @@
 
 
 	<!-- ========== BASES ========== -->
-	
+
 	<ThingDef Name="BMT_CaveWorldMushroomBase" Class="Caveworld_Flora_Unleashed.ThingDef_FruitingBody" Abstract="True" ParentName="CavePlantBase">
 		<statBases>
 			<Flammability>0.8</Flammability>
 		</statBases>
 		<neverMultiSelect>false</neverMultiSelect>
 		<plant>
-			<cavePlantWeight>0</cavePlantWeight>		
+			<cavePlantWeight>0</cavePlantWeight>
 			<harvestAfterGrowth>0.10</harvestAfterGrowth>
 			<harvestWork>150</harvestWork>
 			<sowWork>150</sowWork>
@@ -23,15 +23,15 @@
 			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
 		</plant>
 	</ThingDef>
-  
+
 	<!-- ========== EDIBLE MUSHROOMS ========== -->
-	
-					<!-- SHIMMERSHROOM -->
+
+	<!-- SHIMMERSHROOM -->
 	<!-- A rare wild mushroom that can be harvested for a foodstuff that is better to eat raw -->
 	<ThingDef ParentName="BMT_CaveWorldMushroomBase" Class="Caveworld_Flora_Unleashed.ThingDef_FruitingBody">
 		<defName>BMT_Shimmershroom</defName>
-		<label>shimmershroom</label>
-		<description>Some soft and delicate caveworld shimmershrooms. Much appreciated for their subtle taste they are considered a delicacy by caveworlds inhabitants.</description>
+		<label>Хладошляп</label>
+		<description>Мягкие и нежные мерцающие грибы пещерного мира. За свой тонкий вкус они считаются деликатесом для жителей пещерных миров. Рекомендуется к употреблению в сыром, немного подсоленном виде.</description>
 		<thingClass>Caveworld_Flora_Unleashed.FruitingBody</thingClass>
 		<statBases>
 			<MaxHitPoints>25</MaxHitPoints>
@@ -61,7 +61,7 @@
 			<harvestedThingDef>BMT_RawShimmershroom</harvestedThingDef>
 			<harvestYield>5</harvestYield>
 			<visualSizeRange>0.6~0.8</visualSizeRange>
-			<growDays>10</growDays>
+			<growDays>3</growDays>
 			<sowTags>
 				<li>Ground</li>
 				<li>BMT_Fungiponics</li>
@@ -69,17 +69,17 @@
 			<sowResearchPrerequisites>
 				<li>BMT_ResearchMushrooms</li>
 			</sowResearchPrerequisites>
-			<sowMinSkill>7</sowMinSkill>	  
+			<sowMinSkill>7</sowMinSkill>
 			<wildOrder>0</wildOrder>
-		  <purpose>Food</purpose>
-		  <humanFoodPlant>true</humanFoodPlant>			
+			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 		<comps>
 			<li Class="CompProperties_Glower">
-				<glowRadius>3</glowRadius>
+				<glowRadius>2</glowRadius>
 				<glowColor>(75,0,128,0)</glowColor>
 			</li>
-		 </comps>
+		</comps>
 		<minGrowTemperature>5</minGrowTemperature>
 		<minOptimalGrowTemperature>15</minOptimalGrowTemperature>
 		<maxOptimalGrowTemperature>35</maxOptimalGrowTemperature>
@@ -100,13 +100,13 @@
 		<MyceliumExclusivityRadiusOffset>5</MyceliumExclusivityRadiusOffset>
 		<MyceliumExclusivityRadiusFactor>2</MyceliumExclusivityRadiusFactor>
 	</ThingDef>
-  
-					<!-- GLOWBULB -->
+
+	<!-- GLOWBULB -->
 	<!-- Grows tougher fruiting bodies than most cave fungi -->
 	<ThingDef ParentName="BMT_CaveWorldMushroomBase" Class="Caveworld_Flora_Unleashed.ThingDef_FruitingBody">
 		<defName>BMT_Glowbulb</defName>
-		<label>glowbulb</label>
-		<description>A small glowing bulb, found growing in nearly every corner of dark caves. While technically edible, its very rough taste make it better used as a cooked ingredient.</description>
+		<label>Бирюзовичок</label>
+		<description>Светящийся гриб на толстой ножке, растущий почти на каждом углу темных пещер. Технически он съедобен и в сыром виде, но благодаря его постному вкусу многие решают всё-таки его приготовить. Низкая питательная ценность, но долго не портится. Прорастает в широком диапазоне температур.</description>
 		<thingClass>Caveworld_Flora_Unleashed.FruitingBody</thingClass>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
@@ -135,18 +135,18 @@
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>BMT_RawGlowbulb</harvestedThingDef>
 			<harvestYield>10</harvestYield>
-			<visualSizeRange>0.6~0.8</visualSizeRange>
-			<growDays>14</growDays>
+			<visualSizeRange>0.5~0.9</visualSizeRange>
+			<growDays>7</growDays>
 			<sowTags>
-				<li>Ground</li>				
+				<li>Ground</li>
 				<li>BMT_Fungiponics</li>
 			</sowTags>
 			<sowResearchPrerequisites>
 				<li>BMT_ResearchMushrooms</li>
-			</sowResearchPrerequisites>	  
+			</sowResearchPrerequisites>
 			<wildOrder>0</wildOrder>
-      <purpose>Food</purpose>
-      <humanFoodPlant>true</humanFoodPlant>			
+			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 		<comps>
 			<li Class="CompProperties_Glower">
@@ -160,31 +160,31 @@
 		<maxGrowTemperature>50</maxGrowTemperature>
 		<growOnlyOnRoughRock>true</growOnlyOnRoughRock>
 		<growOnlyUndeRoof>true</growOnlyUndeRoof>
-		<growOnlyNearNaturalRock>true</growOnlyNearNaturalRock>	
+		<growOnlyNearNaturalRock>true</growOnlyNearNaturalRock>
 		<minFertility>0.0</minFertility>
 		<maxFertility>999.0</maxFertility>
 		<minLight>0.0</minLight>
 		<maxLight>0.6</maxLight>
-		<MyceliumAbundance>3</MyceliumAbundance>		
+		<MyceliumAbundance>3</MyceliumAbundance>
 		<MyceliumSizeRange>
 			<min>1</min>
-			<max>3</max>
+			<max>2</max>
 		</MyceliumSizeRange>
-		<MyceliumSpawnRadius>1.5</MyceliumSpawnRadius>
-		<MyceliumExclusivityRadiusOffset>2</MyceliumExclusivityRadiusOffset>
+		<MyceliumSpawnRadius>2</MyceliumSpawnRadius>
+		<MyceliumExclusivityRadiusOffset>3</MyceliumExclusivityRadiusOffset>
 		<MyceliumExclusivityRadiusFactor>2</MyceliumExclusivityRadiusFactor>
 	</ThingDef>
-  					<!-- GREYFIELDS -->
-		<!-- Prefers cooler climates, can be used to make mushroom wine -->
+	<!-- GREYFIELDS -->
+	<!-- Prefers cooler climates, can be used to make mushroom wine -->
 	<ThingDef ParentName="BMT_CaveWorldMushroomBase" Class="Caveworld_Flora_Unleashed.ThingDef_FruitingBody">
 		<defName>BMT_Greyfields</defName>
-		<label>greyfields</label>
-		<description>A fairly unremarkable mushroom in appearance, taste, and texture; what is notable about them is that it is possible to brew them into mushroom wine.</description>
+		<label>Буровичок</label>
+		<description>Довольно непримечательный гриб, как по вкусу, так и по фактуре; примечателен тем, что из него можно варить грибное вино. Предпочитает холодный климат. Излучает кроваво-красное свечение.</description>
 		<thingClass>Caveworld_Flora_Unleashed.FruitingBody</thingClass>
 		<statBases>
 			<MaxHitPoints>65</MaxHitPoints>
 			<Flammability>0.4</Flammability>
-			<Beauty>2</Beauty>
+			<Beauty>3</Beauty>
 			<Nutrition>0.20</Nutrition>
 		</statBases>
 		<graphicData>
@@ -208,19 +208,19 @@
 			<harvestWork>50</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>BMT_RawGreyfields</harvestedThingDef>
-			<harvestYield>8</harvestYield>		
-			<visualSizeRange>0.6~0.8</visualSizeRange>
-			<growDays>14</growDays>
+			<harvestYield>8</harvestYield>
+			<visualSizeRange>0.2~1.0</visualSizeRange>
+			<growDays>7</growDays>
 			<wildOrder>1</wildOrder>
-      <purpose>Food</purpose>
-      <humanFoodPlant>true</humanFoodPlant>			
+			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 			<sowTags>
-				<li>Ground</li>	
-				<li>BMT_Fungiponics</li>				
+				<li>Ground</li>
+				<li>BMT_Fungiponics</li>
 			</sowTags>
 			<sowResearchPrerequisites>
 				<li>BMT_ResearchMushrooms</li>
-			</sowResearchPrerequisites>			
+			</sowResearchPrerequisites>
 		</plant>
 		<comps>
 			<li Class="CompProperties_Glower">
@@ -228,33 +228,33 @@
 				<glowColor>(169,48,32,0)</glowColor>
 			</li>
 		</comps>
-		<minGrowTemperature>0</minGrowTemperature>
-		<minOptimalGrowTemperature>10</minOptimalGrowTemperature>
-		<maxOptimalGrowTemperature>20</maxOptimalGrowTemperature>
-		<maxGrowTemperature>30</maxGrowTemperature>
+		<minGrowTemperature>-10</minGrowTemperature>
+		<minOptimalGrowTemperature>0</minOptimalGrowTemperature>
+		<maxOptimalGrowTemperature>5</maxOptimalGrowTemperature>
+		<maxGrowTemperature>10</maxGrowTemperature>
 		<growOnlyOnRoughRock>true</growOnlyOnRoughRock>
 		<growOnlyUndeRoof>true</growOnlyUndeRoof>
-		<growOnlyNearNaturalRock>true</growOnlyNearNaturalRock>	
+		<growOnlyNearNaturalRock>true</growOnlyNearNaturalRock>
 		<minFertility>0.0</minFertility>
 		<maxFertility>999.0</maxFertility>
 		<minLight>0.0</minLight>
 		<maxLight>0.6</maxLight>
-		<MyceliumAbundance>2</MyceliumAbundance>		
+		<MyceliumAbundance>2</MyceliumAbundance>
 		<MyceliumSizeRange>
-			<min>2</min>
-			<max>6</max>
+			<min>1</min>
+			<max>3</max>
 		</MyceliumSizeRange>
-		<MyceliumSpawnRadius>3.5</MyceliumSpawnRadius>
-		<MyceliumExclusivityRadiusOffset>5</MyceliumExclusivityRadiusOffset>
-		<MyceliumExclusivityRadiusFactor>1</MyceliumExclusivityRadiusFactor>			
+		<MyceliumSpawnRadius>2</MyceliumSpawnRadius>
+		<MyceliumExclusivityRadiusOffset>2</MyceliumExclusivityRadiusOffset>
+		<MyceliumExclusivityRadiusFactor>1</MyceliumExclusivityRadiusFactor>
 	</ThingDef>
- 
-  					<!-- ROYAL BRACKET -->
-		<!-- Prefers warm climates, grows slower but has higher yield than most caveworld fungi -->
+
+	<!-- ROYAL BRACKET -->
+	<!-- Prefers warm climates, grows slower but has higher yield than most caveworld fungi -->
 	<ThingDef ParentName="BMT_CaveWorldMushroomBase" Class="Caveworld_Flora_Unleashed.ThingDef_FruitingBody">
 		<defName>BMT_RoyalBracket</defName>
-		<label>royal bracket</label>
-		<description>A braket fungus related to the oyster mushroom of old Terra that glows with a luxurious golden glow.</description>
+		<label>Желтовичок</label>
+		<description>Редкий и красивый гриб, возможно родственный вёшенке из старой Терры. Он светится роскошным золотистым светом. Предпочитает теплый климат. Растет медленнее, но имеет более высокую урожайность, чем большинство пещерных грибов.</description>
 		<thingClass>Caveworld_Flora_Unleashed.FruitingBody</thingClass>
 		<statBases>
 			<MaxHitPoints>65</MaxHitPoints>
@@ -283,18 +283,18 @@
 			<harvestWork>50</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>RawFungus</harvestedThingDef>
-			<harvestYield>23</harvestYield>		
-			<visualSizeRange>0.6~0.8</visualSizeRange>
-			<growDays>30</growDays>
+			<harvestYield>23</harvestYield>
+			<visualSizeRange>0.4~1.0</visualSizeRange>
+			<growDays>15</growDays>
 			<sowTags>
-				<li>Ground</li>	
-				<li>BMT_Fungiponics</li>				
+				<li>Ground</li>
+				<li>BMT_Fungiponics</li>
 			</sowTags>
 			<sowResearchPrerequisites>
 				<li>BMT_ResearchMushrooms</li>
-			</sowResearchPrerequisites>	
-      <purpose>Food</purpose>
-      <humanFoodPlant>true</humanFoodPlant>			
+			</sowResearchPrerequisites>
+			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 		<comps>
 			<li Class="CompProperties_Glower">
@@ -303,34 +303,37 @@
 			</li>
 		</comps>
 		<minGrowTemperature>10</minGrowTemperature>
-		<minOptimalGrowTemperature>18</minOptimalGrowTemperature>
-		<maxOptimalGrowTemperature>40</maxOptimalGrowTemperature>
-		<maxGrowTemperature>50</maxGrowTemperature>
+		<minOptimalGrowTemperature>20</minOptimalGrowTemperature>
+		<maxOptimalGrowTemperature>30</maxOptimalGrowTemperature>
+		<maxGrowTemperature>40</maxGrowTemperature>
 		<growOnlyOnRoughRock>true</growOnlyOnRoughRock>
 		<growOnlyUndeRoof>true</growOnlyUndeRoof>
-		<growOnlyNearNaturalRock>true</growOnlyNearNaturalRock>	
+		<growOnlyNearNaturalRock>true</growOnlyNearNaturalRock>
 		<minFertility>0.0</minFertility>
 		<maxFertility>999.0</maxFertility>
 		<minLight>0.0</minLight>
 		<maxLight>0.6</maxLight>
-		<MyceliumAbundance>2</MyceliumAbundance>		
+		<MyceliumAbundance>2</MyceliumAbundance>
 		<MyceliumSizeRange>
 			<min>1</min>
-			<max>5</max>
+			<max>1</max>
 		</MyceliumSizeRange>
-		<MyceliumSpawnRadius>3.5</MyceliumSpawnRadius>
-		<MyceliumExclusivityRadiusOffset>5</MyceliumExclusivityRadiusOffset>
-		<MyceliumExclusivityRadiusFactor>1</MyceliumExclusivityRadiusFactor>		
-	</ThingDef> 
+		<MyceliumSpawnRadius>5</MyceliumSpawnRadius>
+		<MyceliumExclusivityRadiusOffset>30</MyceliumExclusivityRadiusOffset>
+		<MyceliumExclusivityRadiusFactor>0</MyceliumExclusivityRadiusFactor>
+	</ThingDef>
 
 	<!-- ========== OTHER MUSHROOMS ========== -->
 
-					<!-- GLEAMCAP -->
+	<!-- GLEAMCAP -->
 	<!-- Caveworld herbal medicine -->
+
+	<!--
+	
 	<ThingDef ParentName="BMT_CaveWorldMushroomBase" Class="Caveworld_Flora_Unleashed.ThingDef_FruitingBody">
 		<defName>BMT_Gleamcap</defName>
-		<label>gleamcap</label>
-		<description>A massive caveworld mushroom, known for its natural healing properties by caveworld tenders. Gleamcap spores are psycoactive and are released whenever the mushroom is disturbed.</description>
+		<label>Соплевик</label>
+		<description>Массивный и черезвычайно полезный гриб. Он известен своими природными целебными свойствами. Споры соплевика псикоактивны и высвобождаются всякий раз, когда гриб потревожен.</description>
 		<thingClass>Caveworld_Flora_Unleashed.FruitingBody_Gleamcap</thingClass>
 		<tickerType>Rare</tickerType>
 		<statBases>
@@ -359,12 +362,12 @@
 			<harvestWork>100</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>BMT_GleamcapSalve</harvestedThingDef>
-			<harvestYield>1</harvestYield>
+			<harvestYield>2</harvestYield>
 			<visualSizeRange>0.3~1.2</visualSizeRange>
-			<growDays>24</growDays>
+			<growDays>12</growDays>
 			<sowTags>
 				<li>Ground</li>
-				<li>BMT_Fungiponics</li>				
+				<li>BMT_Fungiponics</li>
 			</sowTags>
 			<sowResearchPrerequisites>
 				<li>BMT_ResearchMushrooms</li>
@@ -389,7 +392,7 @@
 		<maxFertility>999.0</maxFertility>
 		<minLight>0.0</minLight>
 		<maxLight>0.6</maxLight>
-		<MyceliumAbundance>1</MyceliumAbundance>		
+		<MyceliumAbundance>1</MyceliumAbundance>
 		<MyceliumSizeRange>
 			<min>3</min>
 			<max>4</max>
@@ -398,13 +401,15 @@
 		<MyceliumExclusivityRadiusOffset>5</MyceliumExclusivityRadiusOffset>
 		<MyceliumExclusivityRadiusFactor>1</MyceliumExclusivityRadiusFactor>	
 	</ThingDef>
-  
-					<!-- BRIGHTBELLS -->
+	
+	-->
+
+	<!-- BRIGHTBELLS -->
 	<!-- Beautiful, can make mining much more tolerable -->
 	<ThingDef ParentName="BMT_CaveWorldMushroomBase" Class="Caveworld_Flora_Unleashed.ThingDef_FruitingBody">
 		<defName>BMT_Brightbells</defName>
-		<label>brightbells</label>
-		<description>A very elegant fungus, appreciated by miners for the light emitted by the little bulbs ending its fragile branches. It is often used by caveworld people as a natural lightning; its fibrous texture renders it inedible though.</description>
+		<label>Светокольчики</label>
+		<description>Очень элегантные грибные пучки. Ценятся шахтерами, в основном, за излучаемое свечение и широкий диапазон приемлемых для роста температур. Они подобны букету нежных цветов обладающих мягким тёплым свечением. Шляпки этих грибов поддерживаются хрупкими тонкими ножками. Его часто использует жители пещерных миров в качестве точечного освещения. Не ядовит, но питательной ценностью не обладает.</description>
 		<thingClass>Caveworld_Flora_Unleashed.FruitingBody</thingClass>
 		<statBases>
 			<MaxHitPoints>15</MaxHitPoints>
@@ -428,19 +433,19 @@
 			<preferability>NeverForNutrition</preferability>
 		</ingestible>
 		<plant>
-			<topWindExposure>0.2</topWindExposure>
+			<topWindExposure>0.3</topWindExposure>
 			<harvestMinGrowth>0.90</harvestMinGrowth>
 			<harvestWork>100</harvestWork>
 			<harvestTag>Standard</harvestTag>
-			<visualSizeRange>0.3~1.05</visualSizeRange>
-			<growDays>4</growDays>
+			<visualSizeRange>0.3~1.0</visualSizeRange>
+			<growDays>1</growDays>
 			<sowTags>
-				<li>Ground</li>	
-				<li>Decorative</li>			
+				<li>Ground</li>
+				<li>Decorative</li>
 			</sowTags>
 			<sowResearchPrerequisites>
 				<li>BMT_ResearchMushrooms</li>
-			</sowResearchPrerequisites>	  
+			</sowResearchPrerequisites>
 			<wildOrder>0</wildOrder>
 		</plant>
 		<comps>
@@ -449,26 +454,26 @@
 				<glowColor>(238,211,148,0)</glowColor>
 			</li>
 		</comps>
-		<minGrowTemperature>0</minGrowTemperature>
-		<minOptimalGrowTemperature>10</minOptimalGrowTemperature>
-		<maxOptimalGrowTemperature>40</maxOptimalGrowTemperature>
-		<maxGrowTemperature>50</maxGrowTemperature>
+		<minGrowTemperature>-30</minGrowTemperature>
+		<minOptimalGrowTemperature>-25</minOptimalGrowTemperature>
+		<maxOptimalGrowTemperature>25</maxOptimalGrowTemperature>
+		<maxGrowTemperature>30</maxGrowTemperature>
 		<growOnlyOnRoughRock>true</growOnlyOnRoughRock>
 		<growOnlyUndeRoof>true</growOnlyUndeRoof>
-		<growOnlyNearNaturalRock>true</growOnlyNearNaturalRock>	
+		<growOnlyNearNaturalRock>true</growOnlyNearNaturalRock>
 		<minFertility>0.0</minFertility>
 		<maxFertility>999.0</maxFertility>
 		<minLight>0.0</minLight>
-		<maxLight>0.6</maxLight>
-		<MyceliumAbundance>3</MyceliumAbundance>		
+		<maxLight>0.7</maxLight>
+		<MyceliumAbundance>3</MyceliumAbundance>
 		<MyceliumSizeRange>
 			<min>1</min>
 			<max>1</max>
 		</MyceliumSizeRange>
-		<MyceliumSpawnRadius>4.0</MyceliumSpawnRadius>
-		<MyceliumExclusivityRadiusOffset>16</MyceliumExclusivityRadiusOffset>
+		<MyceliumSpawnRadius>5.0</MyceliumSpawnRadius>
+		<MyceliumExclusivityRadiusOffset>15</MyceliumExclusivityRadiusOffset>
 		<MyceliumExclusivityRadiusFactor>0</MyceliumExclusivityRadiusFactor>
 	</ThingDef>
-	
-	
+
+
 </Defs>

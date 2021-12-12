@@ -3,11 +3,11 @@
 
     <WorkGiverDef>
         <defName>BMT_TakeMushroomWineOutOfFermentingBarrel</defName>
-        <label>take mushroom wine out of mushroom wine barrels</label>
+        <label>сливать грибное вино</label>
         <giverClass>WorkGiver_TakeMushroomWineOutOfFermentingBarrel</giverClass>
         <workType>Hauling</workType>
-        <verb>take wine</verb>
-        <gerund>taking wine from</gerund>
+        <verb>делать вино</verb>
+        <gerund>изготовить вино из</gerund>
         <priorityInType>20</priorityInType>
         <requiredCapacities>
             <li>Manipulation</li>
@@ -16,11 +16,11 @@
 
     <WorkGiverDef>
         <defName>BMT_FillMushroomFermentingBarrel</defName>
-        <label>fill mushroom fermenting barrels</label>
+        <label>наполнять ферментёр</label>
         <giverClass>WorkGiver_FillMushroomFermentingBarrel</giverClass>
         <workType>Hauling</workType>
-        <verb>fill</verb>
-        <gerund>filling</gerund>
+        <verb>наполнять</verb>
+        <gerund>наполнение</gerund>
         <priorityInType>19</priorityInType>
         <requiredCapacities>
             <li>Manipulation</li>
