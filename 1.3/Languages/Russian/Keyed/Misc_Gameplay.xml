@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Mushroom Wine -->
+
+	<ItW_NoMushroomMust>Не требует грибов</ItW_NoMushroomMust>
+	<ItW_ContainsMushroomMust>содержит необходимых грибов {0} / {1}.</ItW_ContainsMushroomMust>
+	<ItW_ContainsMushroomWine>содержит грибного вина {0} / {1}.</ItW_ContainsMushroomWine>
+
+</LanguageData>

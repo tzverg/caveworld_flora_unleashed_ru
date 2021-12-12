@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Fungiponics -->
+  <Caveworld_Flora_Unleashed.CannotGrowTooCold>Не может расти: слишком холодно.</Caveworld_Flora_Unleashed.CannotGrowTooCold>
+  <Caveworld_Flora_Unleashed.CannotGrowTooHot>Не может расти: слишком жарко.</Caveworld_Flora_Unleashed.CannotGrowTooHot>
+  <Caveworld_Flora_Unleashed.Growing>Приемлемые условия для роста.</Caveworld_Flora_Unleashed.Growing>
+  <!-- Flora Plant -->
+  <Caveworld_Flora_Unleashed.InCryostasis>в анабиозе</Caveworld_Flora_Unleashed.InCryostasis>
+  <Caveworld_Flora_Unleashed.Dying>умирает</Caveworld_Flora_Unleashed.Dying>
+  <Caveworld_Flora_Unleashed.TooHot>слишком жарко</Caveworld_Flora_Unleashed.TooHot>
+  <Caveworld_Flora_Unleashed.TooDark>слишком темно</Caveworld_Flora_Unleashed.TooDark>
+  <Caveworld_Flora_Unleashed.Overlit>слишком светло</Caveworld_Flora_Unleashed.Overlit>
+  <Caveworld_Flora_Unleashed.Unroofed>не под крышей</Caveworld_Flora_Unleashed.Unroofed>
+  <Caveworld_Flora_Unleashed.UnadaptedSoil>неприспособленный грунт</Caveworld_Flora_Unleashed.UnadaptedSoil>
+  <Caveworld_Flora_Unleashed.TooFarFromRock>слишком далеко от скал</Caveworld_Flora_Unleashed.TooFarFromRock>
+  <Caveworld_Flora_Unleashed.MyceliumRootRemoved>мицелий удален</Caveworld_Flora_Unleashed.MyceliumRootRemoved>
+  <Caveworld_Flora_Unleashed.Cryostasis>анабиоз</Caveworld_Flora_Unleashed.Cryostasis>
+</LanguageData>
